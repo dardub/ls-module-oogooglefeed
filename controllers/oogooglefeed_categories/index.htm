@@ -1,0 +1,9 @@
+<? Phpr_View::beginBlock("head") ?>
+	<script type="text/javascript" src="modules/oogooglefeed/resources/javascript/googleproducts.js"></script>
+  <link rel="stylesheet" media="screen" href="modules/oogooglefeed/resources/css/googleproducts.css" />
+<? Phpr_View::endBlock() ?>
+<? Phpr_View::beginBlock("view") ?>
+  <div id="index_content">
+    <? $this->render_partial('index_content') ?>
+  </div>
+<? Phpr_View::endBlock() ?>

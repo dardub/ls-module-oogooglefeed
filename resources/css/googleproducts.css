@@ -1,0 +1,14 @@
+.enable_category
+{
+	background: transparent url('../images/dialog-ok-apply-2.png') no-repeat 5px 4px;
+}
+
+.disable_category
+{
+	background: transparent url('../images/document-close-2.png') no-repeat 5px 4px;
+}
+
+.toolbar
+{
+  float:left;
+}
